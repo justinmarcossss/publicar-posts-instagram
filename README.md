@@ -17,6 +17,10 @@ publicado duas vezes, mesmo que uma execução falhe.
 | `midia/` | Imagens e vídeos hospedados para o Instagram buscar |
 | `publicados.json` | Registro do que já foi publicado, com data e link |
 
+Todo post publicado sai com **comentários desativados**. O script desliga os comentários
+logo após publicar e confere o resultado; se por algum motivo continuarem ativos, ele
+trata como erro e para.
+
 ## Comandos
 
 ```bash

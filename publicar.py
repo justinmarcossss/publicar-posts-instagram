@@ -10,6 +10,7 @@ Segurança:
   - para no primeiro erro da API, sem insistir
   - registra cada publicação em publicados.json; nunca publica o mesmo post duas vezes
   - respeita horário comercial e usa intervalos variados
+  - desativa os comentários de cada post e confere que ficaram desativados
 """
 import argparse
 import json
@@ -129,7 +130,16 @@ def publicar_post(post, ig_id, token):
 
     esperar_container(ig_id, cont["id"], token)
     pub = api("POST", f"{ig_id}/media_publish", token, creation_id=cont["id"])
+    desativar_comentarios(pub["id"], token)
     return pub["id"]
+
+
+def desativar_comentarios(media_id, token):
+    """Desliga os comentários do post e confere que ficou desligado mesmo."""
+    api("POST", media_id, token, comment_enabled="false")
+    estado = api("GET", media_id, token, fields="is_comment_enabled").get("is_comment_enabled")
+    if estado is not False:
+        raise ErroAPI(f"comentários continuam ativos no post {media_id} (is_comment_enabled={estado})")
 
 
 def dentro_do_horario():
@@ -197,7 +207,7 @@ def main():
                               "publicado_em": datetime.now().isoformat(timespec="seconds"),
                               "data_original": post["created_time"][:10]}
         salvar_registro(reg)
-        log(f"  OK → {link}")
+        log(f"  OK → {link}  (comentários desativados)")
 
         if n < quantidade:
             espera = random.randint(INTERVALO_MIN, INTERVALO_MAX)
