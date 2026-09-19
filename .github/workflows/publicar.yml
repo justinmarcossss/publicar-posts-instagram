@@ -1,0 +1,47 @@
+name: Publicar no Instagram
+
+on:
+  schedule:
+    # Horários em UTC. Brasília = UTC-3, então isto cobre 9h–18h de Brasília.
+    - cron: '12 12 * * *'   #  9h12
+    - cron: '47 13 * * *'   # 10h47
+    - cron: '23 15 * * *'   # 12h23
+    - cron: '08 16 * * *'   # 13h08
+    - cron: '51 17 * * *'   # 14h51
+    - cron: '34 18 * * *'   # 15h34
+    - cron: '19 20 * * *'   # 17h19
+    - cron: '58 20 * * *'   # 17h58
+  workflow_dispatch:        # permite rodar na mão pelo site do GitHub
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - name: Publicar 1 post
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
+        run: python3 publicar.py --quantidade 1 --ignorar-horario
+
+      - name: Salvar o progresso
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "github-actions@github.com"
+          git add publicados.json log.txt
+          git diff --staged --quiet || git commit -m "Publicado no Instagram [skip ci]"
+          git push

@@ -1,0 +1,7 @@
+# IDs de fotos/posts que NÃO devem ir para o Instagram (um por linha).
+# Linhas começando com # são comentários.
+122108105750921535   # 02/07/2025 - 1290x1290 - não aparece no feed da Página
+122110747556921535   # 05/07/2025 - post #1
+122110747628921535   # 05/07/2025 - banner 820x360 (detectado como foto de capa)
+122132882540921535   # 16/08/2025 - print de tela (post #8)
+122110749164921535   # 05/07/2025 - duplicado do post IG DdeyBo4FM96 (publicado por engano no teste)
