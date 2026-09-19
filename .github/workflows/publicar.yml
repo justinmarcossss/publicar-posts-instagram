@@ -19,6 +19,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   publicar:
@@ -33,10 +34,11 @@ jobs:
       - run: pip install requests
 
       - name: Publicar 1 post
+        id: publicar
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
-        run: python3 publicar.py --quantidade 1 --ignorar-horario
+        run: python3 publicar.py --quantidade 1 --ignorar-horario 2>&1 | tee saida.txt
 
       - name: Salvar o progresso
         run: |
@@ -45,3 +47,39 @@ jobs:
           git add publicados.json log.txt
           git diff --staged --quiet || git commit -m "Publicado no Instagram [skip ci]"
           git push
+
+      - name: Avisar se deu erro
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "❌ Falha ao publicar no Instagram — $(date +%d/%m\ %H:%M)" \
+            --body "A publicação automática falhou e **parou por segurança**. Nada mais será publicado até isto ser resolvido.
+
+          **Log do erro:**
+          \`\`\`
+          $(tail -25 saida.txt 2>/dev/null || echo 'sem saída registrada')
+          \`\`\`
+
+          [Ver a execução completa](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+
+          **Causas mais comuns:**
+          - Token do Instagram expirou (validade de 60 dias) → gerar outro e atualizar o secret \`IG_TOKEN\`
+          - Limite diário da Meta atingido (100 posts/dia) → passa sozinho no dia seguinte
+          - Instabilidade da API da Meta → normalmente resolve na próxima execução
+
+          Para retomar depois de resolver: **Actions → Publicar no Instagram → Run workflow**."
+
+      - name: Avisar quando terminar tudo
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -q "Nada na fila" saida.txt 2>/dev/null; then
+            gh issue create \
+              --title "✅ Migração concluída: todos os posts foram publicados" \
+              --body "A fila acabou. Todos os posts marcados já estão no Instagram.
+
+          Pode desativar o agendamento em **Actions → Publicar no Instagram → ⋯ → Disable workflow**."
+          fi
