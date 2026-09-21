@@ -5,3 +5,4 @@
 122110747628921535   # 05/07/2025 - banner 820x360 (detectado como foto de capa)
 122132882540921535   # 16/08/2025 - print de tela (post #8)
 122110749164921535   # 05/07/2025 - duplicado do post IG DdeyBo4FM96 (publicado por engano no teste)
+122189058218921535   # 20/02/2026 - Reel do CPF, baixa resolução (360x640)

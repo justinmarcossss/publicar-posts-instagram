@@ -1123,9 +1123,11 @@
       }
     ],
     "tipo": "REELS",
-    "status": "OK",
-    "notes": [],
-    "publicar": "SIM"
+    "status": "EXCLUÍDO POR VOCÊ",
+    "notes": [
+      "Reel em baixa resolução (360x640), descartado"
+    ],
+    "publicar": "NÃO"
   },
   {
     "fb_id": "734530859733689_122189065436921535",
