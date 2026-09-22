@@ -99,3 +99,8 @@
 2026-09-21 23:41:28  Publicando [1/1] 2025-12-29 FOTO: A Pesquisa de Protesto permite verificar se há registros de ...
 2026-09-21 23:41:52    OK → https://www.instagram.com/p/DdkXT92mn4h/  (comentários desativados)
 2026-09-21 23:41:52  Lote encerrado. Publicados no total: 18 | ainda na fila: 68
+2026-09-22 16:51:01  Conta 17841427132077365 | cota da Meta usada hoje: 8/100
+2026-09-22 16:51:01  Lote de hoje: 1 post(s) | restam 68 na fila
+2026-09-22 16:51:01  Publicando [1/1] 2025-12-30 FOTO: As certidões de débitos municipais confirma se existem pendê...
+2026-09-22 16:51:26    OK → https://www.instagram.com/p/DdmNIo_kYfR/  (comentários desativados)
+2026-09-22 16:51:26  Lote encerrado. Publicados no total: 19 | ainda na fila: 67
