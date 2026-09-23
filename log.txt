@@ -169,3 +169,8 @@
 2026-09-23 21:40:45  Publicando [1/1] 2026-02-14 FOTO: Economize tempo e resolva suas pendências documentais sem sa...
 2026-09-23 21:41:08    OK → https://www.instagram.com/p/DdpTFmHATus/  (comentários desativados)
 2026-09-23 21:41:08  Lote encerrado. Publicados no total: 32 | ainda na fila: 54
+2026-09-23 22:58:48  Conta 17841427132077365 | cota da Meta usada hoje: 8/100
+2026-09-23 22:58:48  Lote de hoje: 1 post(s) | restam 54 na fila
+2026-09-23 22:58:48  Publicando [1/1] 2026-02-15 FOTO: Agora você pode realizar consultas gratuitas diretamente pel...
+2026-09-23 22:58:56  ERRO: OAuthException (código 4): Application request limit reached
+2026-09-23 22:58:56  Parando por segurança. Nada mais será publicado até você revisar.
