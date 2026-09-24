@@ -189,3 +189,8 @@
 2026-09-24 17:58:06  Publicando [1/1] 2026-02-15 FOTO: Agora você pode realizar consultas gratuitas diretamente pel...
 2026-09-24 17:58:15  ERRO: OAuthException (código 4): Application request limit reached
 2026-09-24 17:58:15  Parando por segurança. Nada mais será publicado até você revisar.
+2026-09-24 19:15:59  Conta 17841427132077365 | cota da Meta usada hoje: 3/100
+2026-09-24 19:15:59  Lote de hoje: 1 post(s) | restam 54 na fila
+2026-09-24 19:15:59  Publicando [1/1] 2026-02-15 FOTO: Agora você pode realizar consultas gratuitas diretamente pel...
+2026-09-24 19:16:22  ERRO: OAuthException (código 4): Application request limit reached
+2026-09-24 19:16:22  Parando por segurança. Nada mais será publicado até você revisar.
