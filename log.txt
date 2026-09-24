@@ -204,3 +204,8 @@
 2026-09-24 20:48:25  Publicando [1/1] 2026-02-15 FOTO: Agora você pode realizar consultas gratuitas diretamente pel...
 2026-09-24 20:48:50  ERRO: OAuthException (código 2): An unexpected error has occurred. Please retry your request later.
 2026-09-24 20:48:50  Parando por segurança. Nada mais será publicado até você revisar.
+2026-09-24 21:42:10  Conta 17841427132077365 | cota da Meta usada hoje: 0/100
+2026-09-24 21:42:10  Lote de hoje: 1 post(s) | restam 54 na fila
+2026-09-24 21:42:10  Publicando [1/1] 2026-02-15 FOTO: Agora você pode realizar consultas gratuitas diretamente pel...
+2026-09-24 21:42:31  ERRO: OAuthException (código 4): Application request limit reached
+2026-09-24 21:42:31  Parando por segurança. Nada mais será publicado até você revisar.
