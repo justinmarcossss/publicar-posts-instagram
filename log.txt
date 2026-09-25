@@ -229,3 +229,8 @@
 2026-09-25 18:05:06  Publicando [1/1] 2026-02-15 FOTO: Agora você pode realizar consultas gratuitas diretamente pel...
 2026-09-25 18:05:28  ERRO: OAuthException (código 4): Application request limit reached
 2026-09-25 18:05:28  Parando por segurança. Nada mais será publicado até você revisar.
+2026-09-25 19:18:33  Conta 17841427132077365 | cota da Meta usada hoje: 0/100
+2026-09-25 19:18:33  Lote de hoje: 1 post(s) | restam 54 na fila
+2026-09-25 19:18:33  Publicando [1/1] 2026-02-15 FOTO: Agora você pode realizar consultas gratuitas diretamente pel...
+2026-09-25 19:18:59    OK → https://www.instagram.com/p/DduMZ4XFg2h/  (comentários desativados)
+2026-09-25 19:18:59  Lote encerrado. Publicados no total: 33 | ainda na fila: 53
