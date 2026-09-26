@@ -289,3 +289,8 @@
 2026-09-26 21:23:52  Publicando [1/1] 2026-02-24 FOTO: Mesmo no exterior, você pode solicitar documentos brasileiro...
 2026-09-26 21:23:59  ERRO: OAuthException (código 9007): Media ID is not available
 2026-09-26 21:23:59  Parando por segurança. Nada mais será publicado até você revisar.
+2026-09-26 22:56:28  Conta 17841427132077365 | cota da Meta usada hoje: 6/100
+2026-09-26 22:56:28  Lote de hoje: 1 post(s) | restam 44 na fila
+2026-09-26 22:56:28  Publicando [1/1] 2026-02-24 FOTO: Mesmo no exterior, você pode solicitar documentos brasileiro...
+2026-09-26 22:56:56    OK → https://www.instagram.com/p/DdxKIwQmYvu/  (comentários desativados)
+2026-09-26 22:56:56  Lote encerrado. Publicados no total: 43 | ainda na fila: 43
