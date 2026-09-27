@@ -309,3 +309,8 @@
 2026-09-27 17:57:02  Publicando [1/1] 2026-02-27 FOTO: Nossa equipe orienta você em cada etapa da solicitação.  Sem...
 2026-09-27 17:57:26    OK → https://www.instagram.com/p/DdzMqg3mLlU/  (comentários desativados)
 2026-09-27 17:57:26  Lote encerrado. Publicados no total: 46 | ainda na fila: 40
+2026-09-27 19:02:04  Conta 17841427132077365 | cota da Meta usada hoje: 6/100
+2026-09-27 19:02:04  Lote de hoje: 1 post(s) | restam 40 na fila
+2026-09-27 19:02:04  Publicando [1/1] 2026-02-28 REELS: Situações como essa acontecem com mais frequência do que par...
+2026-09-27 19:03:00    OK → https://www.instagram.com/reel/DdzUHEuDLkw/  (comentários desativados)
+2026-09-27 19:03:00  Lote encerrado. Publicados no total: 47 | ainda na fila: 39
