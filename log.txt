@@ -364,3 +364,8 @@
 2026-09-28 22:39:00  Publicando [1/1] 2026-03-14 FOTO: Muitas informações sobre pessoas e empresas são públicas no ...
 2026-09-28 22:39:09    OK → https://www.instagram.com/p/Dd2Ruh6D92-/  (comentários desativados)
 2026-09-28 22:39:09  Lote encerrado. Publicados no total: 57 | ainda na fila: 29
+2026-09-28 23:26:37  Conta 17841427132077365 | cota da Meta usada hoje: 5/100
+2026-09-28 23:26:37  Lote de hoje: 1 post(s) | restam 29 na fila
+2026-09-28 23:26:37  Publicando [1/1] 2026-03-15 FOTO: Muitas pessoas descobrem processos apenas quando precisam de...
+2026-09-28 23:27:01    OK → https://www.instagram.com/p/Dd2XLSxIPqQ/  (comentários desativados)
+2026-09-28 23:27:01  Lote encerrado. Publicados no total: 58 | ainda na fila: 28
