@@ -409,3 +409,8 @@
 2026-09-29 22:31:01  Publicando [1/1] 2026-03-22 FOTO: Antes de formalizar um negócio, muitas empresas analisam:  •...
 2026-09-29 22:31:22    OK → https://www.instagram.com/p/Dd41m54lD9n/  (comentários desativados)
 2026-09-29 22:31:22  Lote encerrado. Publicados no total: 66 | ainda na fila: 20
+2026-09-29 23:45:51  Conta 17841427132077365 | cota da Meta usada hoje: 8/100
+2026-09-29 23:45:51  Lote de hoje: 1 post(s) | restam 20 na fila
+2026-09-29 23:45:51  Publicando [1/1] 2026-03-23 FOTO: Existem dezenas de tipos de certidões emitidas por diferente...
+2026-09-29 23:46:07    OK → https://www.instagram.com/p/Dd4-LO2D7Fz/  (comentários desativados)
+2026-09-29 23:46:07  Lote encerrado. Publicados no total: 67 | ainda na fila: 19
