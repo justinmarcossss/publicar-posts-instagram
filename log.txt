@@ -439,3 +439,8 @@
 2026-09-30 20:44:41  Publicando [1/1] 2026-03-28 FOTO: Informações divergentes em documentos podem gerar atrasos em...
 2026-09-30 20:45:08    OK → https://www.instagram.com/p/Dd7OPAMmZaY/  (comentários desativados)
 2026-09-30 20:45:08  Lote encerrado. Publicados no total: 72 | ainda na fila: 14
+2026-09-30 21:32:49  Conta 17841427132077365 | cota da Meta usada hoje: 8/100
+2026-09-30 21:32:49  Lote de hoje: 1 post(s) | restam 14 na fila
+2026-09-30 21:32:49  Publicando [1/1] 2026-03-29 FOTO: Empresas precisam manter certidões atualizadas para diversas...
+2026-09-30 21:32:59    OK → https://www.instagram.com/p/Dd7TvkUI0xC/  (comentários desativados)
+2026-09-30 21:32:59  Lote encerrado. Publicados no total: 73 | ainda na fila: 13
