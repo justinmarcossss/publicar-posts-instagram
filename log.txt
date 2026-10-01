@@ -489,3 +489,8 @@
 2026-10-01 22:50:22  Publicando [1/1] 2026-04-07 FOTO: Hoje, grande parte das informações públicas está disponível ...
 2026-10-01 22:50:45    OK → https://www.instagram.com/p/Dd-BaWjldyl/  (comentários desativados)
 2026-10-01 22:50:45  Lote encerrado. Publicados no total: 82 | ainda na fila: 4
+2026-10-01 23:56:16  Conta 17841427132077365 | cota da Meta usada hoje: 7/100
+2026-10-01 23:56:16  Lote de hoje: 1 post(s) | restam 4 na fila
+2026-10-01 23:56:16  Publicando [1/1] 2026-04-08 FOTO: Documentos brasileiros muitas vezes precisam ser traduzidos ...
+2026-10-01 23:56:41    OK → https://www.instagram.com/p/Dd-I9GPGTFH/  (comentários desativados)
+2026-10-01 23:56:41  Lote encerrado. Publicados no total: 83 | ainda na fila: 3
