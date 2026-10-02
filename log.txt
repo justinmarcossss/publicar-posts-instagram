@@ -510,3 +510,4 @@
 2026-10-02 18:43:05    OK → https://www.instagram.com/p/DeAJ28NmS16/  (comentários desativados)
 2026-10-02 18:43:05  Lote encerrado. Publicados no total: 86 | ainda na fila: 0
 2026-10-02 19:58:35  Nada na fila. Todos os posts marcados já foram publicados.
+2026-10-02 20:37:47  Nada na fila. Todos os posts marcados já foram publicados.
